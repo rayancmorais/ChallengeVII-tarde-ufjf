@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import {
   X,
   LayoutDashboard,
@@ -20,12 +20,12 @@ const DrawerButton = ({
   icon,
 }: DrawerButtonProps) => {
   return (
-    <Link className="w-full" to={route} onClick={closeDrawer}>
+    <NavLink className="w-full" to={route} onClick={closeDrawer}>
       <div className="flex gap-2.5 p-1.5 bg-white items-center justify-center rounded-full">
         {icon}
         {label}
       </div>
-    </Link>
+    </NavLink>
   );
 };
 
