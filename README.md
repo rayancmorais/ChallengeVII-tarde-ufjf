@@ -1,147 +1,140 @@
+# 💰 Codi Cash - Financial Management System
 
-# 💰 Codi Cash - Sistema de Gestão Financeira
+## 🎯 Project Objective
 
-## 🎯 Objetivo do Projeto
+**Codi Cash** is a financial management software developed to facilitate the control of finances for each unit of the **Codi Academy**. This system allows for the registration, viewing, and management of **sales, expenses, and key financial indicators (KPIs)** through a modern, responsive, and intuitive web interface.
 
-O **Codi Cash** é um software de gestão financeira desenvolvido com o objetivo de facilitar o controle das finanças de cada unidade da **Codi Academy**. Este sistema permite o cadastro, visualização e gestão de **vendas, despesas e indicadores financeiros** através de uma interface web moderna, responsiva e intuitiva.
-
-Este projeto foi desenvolvido como parte de um **Challenge**, com foco exclusivo no desenvolvimento do **frontend** da aplicação, garantindo uma experiência de usuário otimizada e uma arquitetura de código limpa e modular.
-
----
-
-## 🚀 Escopo do Desafio (Frontend)
-
-O desafio consistiu em desenvolver a interface completa e funcional do sistema, utilizando tecnologias modernas e garantindo:
-
-- Interfaces responsivas para diversos dispositivos (**mobile first**).
-- Alta usabilidade e navegação intuitiva.
-- Componentização e reutilização de código para escalabilidade e manutenção.
-- Estrutura de projeto limpa e organizada.
+This project was developed as part of a **Challenge**, with an exclusive focus on the **frontend** development of the application, ensuring an optimized user experience and a clean, modular code architecture.
 
 ---
 
-## ✨ Funcionalidades Requeridas
+## 🚀 Challenge Scope (Frontend)
 
-### 1. Dashboard Principal
+The challenge consisted of developing the complete and functional interface of the system, using modern technologies and ensuring:
 
-- **Resumos Mensais**: Exibição clara de receitas, despesas e balanço do período.
-- **Gráficos Interativos**: Gráficos de barras/linhas para visualizar dados financeiros por diferentes períodos (semana, mês, ano).
-- **KPIs**: Cards visuais com indicadores chave como Total de Vendas, Total de Despesas e Saldo Líquido.
-
-### 2. Módulo de Vendas
-
-- **Formulário de Cadastro**:
-  - Tipo de curso (online ou presencial).
-  - Dados do cliente (nome, e-mail, telefone).
-  - Valor bruto da venda.
-  - Descontos aplicados.
-  - Impostos, comissões e taxas de cartão.
-  - **Cálculo automático** do Valor Final da venda.
-
-- **Lista de Vendas**: Visualização de todas as vendas cadastradas, com filtros por período e tipo de curso.
-
-### 3. Módulo de Gastos
-
-- **Cadastro de Despesas**:
-  - Fixas: Luz, água, aluguel, internet, folha de pagamento, vale transporte, imposto sobre folha.
-  - Variáveis: Manutenção, suprimentos, etc.
-
-- **Gestão de Lançamentos**: Edição e exclusão de despesas.
-- **Histórico de Gastos**: Visualização detalhada de todas as despesas registradas.
-
-### 4. Visualizações e Gráficos Avançados
-
-- **Gráfico Comparativo**: Receitas vs. Despesas ao longo do tempo.
-- **Gráfico de Pizza**: Distribuição dos gastos por categoria.
-- **Filtros Dinâmicos**: Por intervalo de tempo e categoria.
-
-### 5. Experiência do Usuário (UX)
-
-- Layout responsivo (desktop, tablet, mobile).
-- Navegação clara e fácil.
-- Feedback visual (mensagens de sucesso e erro).
-- Modais para confirmações e formulários.
+* Responsive interfaces for various devices (**mobile first** approach).
+* High usability and intuitive navigation.
+* Componentization and code reuse for scalability and maintenance.
+* Clean and organized project structure.
 
 ---
 
-## 🛠️ Requisitos Técnicos
+## ✨ Required Functionality
 
-- **HTML5, CSS3 e JavaScript**.
-- **TailwindCSS**.
-- **ReactJS** com abordagem **mobile first**.
-- Estrutura modular com componentes reutilizáveis.
+### 1. Main Dashboard
+
+* **Monthly Summaries**: Clear display of revenue, expenses, and balance for the period.
+* **Interactive Charts**: Bar/line charts to visualize financial data across different periods (week, month, year).
+* **KPI Cards**: Visual cards with key performance indicators like Total Sales, Total Expenses, and Net Balance.
+
+### 2. Sales Module
+
+* **Registration Form**:
+    * Course type (online or in-person).
+    * Customer data (name, email, phone).
+    * Gross sales value.
+    * Applied discounts.
+    * Taxes, commissions, and card fees.
+    * **Automatic calculation** of the Final Sales Value.
+* **Sales List**: Visualization of all registered sales, with filters by period and course type.
+
+### 3. Expenses Module (Gastos)
+
+* **Expense Registration**:
+    * **Fixed**: Electricity, water, rent, internet, payroll, transportation vouchers, payroll tax.
+    * **Variable**: Maintenance, supplies, etc.
+* **Entry Management**: Editing and deletion of expenses.
+* **Expense History**: Detailed visualization of all registered expenses.
+
+### 4. Advanced Visualizations and Charts
+
+* **Comparative Chart**: Revenue vs. Expenses over time.
+* **Pie Chart**: Distribution of expenses by category.
+* **Dynamic Filters**: By time range and category.
+
+### 5. User Experience (UX)
+
+* Responsive layout (desktop, tablet, mobile).
+* Clear and easy navigation.
+* Visual feedback (success and error messages).
+* Modals for confirmations and forms.
 
 ---
 
-## ✅ Critérios de Avaliação
+## 🛠️ Technical Requirements
 
-- Interface responsiva e funcional.
-- Boa organização do código.
-- Reutilização de componentes.
-- Alinhamento com os requisitos.
-- Apresentação final.
+* **HTML5, CSS3, and JavaScript**.
+* **TailwindCSS**.
+* **ReactJS** with a **mobile first** approach.
+* Modular structure with reusable components.
+
+---
+
+## ✅ Evaluation Criteria
+
+* Responsive and functional interface.
+* Good code organization.
+* Component reuse.
+* Alignment with requirements.
+* Final presentation.
 
 ---
 
-## 📦 Entregáveis
+## 📦 Deliverables
 
-- Repositório no GitHub.
-- Link de deploy (Vercel, Netlify, etc).
-- Documentação para rodar localmente.
-- Documentação do frontend.
-- Apresentação do projeto.
-
----
+* GitHub Repository.
+* Deployment link (Vercel, Netlify, etc).
+* Documentation for local setup.
+* Frontend documentation.
+* Project presentation.
 
 ### CHALLENGEVII-TARDE-UFJF
 
 ---
 
-## 1. 🎨 Protótipos no Figma
+## 1. 🎨 Figma Prototypes
 
-O design visual do projeto foi inicialmente estruturado no Figma pelo grupo, servindo como base para o desenvolvimento da interface do sistema.
+The project's visual design was initially structured in Figma by the group, serving as the basis for developing the system's interface.
 
-- 🔗 [Visualizar protótipo mobile](https://www.figma.com/proto/GqZUatYhyc7vB4leHz24uO/CodiAcademy--Copy-?page-id=2612%3A9344&node-id=2612-9353&p=f&viewport=115%2C266%2C0.16&t=Dd2gEp0czH9oICpj-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2612%3A9353&show-proto-sidebar=1)
-- 🔗 [Visualizar protótipo desktop](https://www.figma.com/proto/GqZUatYhyc7vB4leHz24uO/CodiAcademy--Copy-?page-id=618%3A11050&node-id=654-29657&p=f&viewport=309%2C338%2C0.05&t=U968KR5HwadZvLsa-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=654%3A29584&show-proto-sidebar=1)
-
----
-
-## 2. 🗂️ Estrutura e Organização do Projeto
-
-A seguir, uma visão geral das pastas principais do projeto, suas responsabilidades e exemplos do que cada uma contém:
-
-| Pasta           | Descrição                                                                                         | Exemplos/Conteúdo Principal                                            |
-|-----------------|-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
-| `assets/`       | Imagens estáticas, logos e ícones usados na interface.                                          | Logo Codi Academy                      |
-| `components/`   | Componentes React reutilizáveis em toda a aplicação.                                            | Header, Modal, Sidebar                                               |
-| `contexts/`     | Contextos React para gerenciamento global de estados e lógica compartilhada.                   | HeaderContext para título e ações do cabeçalho                       |
-| `features/`     | Componentes específicos de páginas, isolados para evitar impacto no restante do sistema.        | Componentes únicos para funcionalidades específicas                  |
-| `hooks/`        | Hooks personalizados para lógica reutilizável, como detecção de dispositivo e manipulação de dados | useFinancialMetrics, useIsMobile, useLocalStorageData                |
-| `layouts/`      | Layouts principais que estruturam a navegação e a disposição visual das páginas.                | MainLayout com sidebar responsiva                                   |
-| `libs/`         | Funções utilitárias usadas globalmente para operações comuns e helpers.                         | Função `cn` para manipulação de classes CSS com Tailwind            |
-| `pages/`        | Páginas do aplicativo que correspondem a rotas.                                                | Dashboard, Vendas, Gastos                                            |
-| `services/`     | Módulos para lógica de manipulação de dados e integração com APIs externas.                     | Agregação de dados para gráficos                                    |
-| `types/`        | Definições e interfaces TypeScript para garantir tipagem consistente e segura.                  | Interfaces Venda, Gasto                                              |
-| `utils/`        | Funções utilitárias para formatação, cálculos financeiros e manipulação de dados.               | Cálculo de TIR, Payback, formatação de datas e moedas               |
+* 🔗 [View Mobile Prototype](https://www.figma.com/proto/GqZUatYhyc7vB4leHz24uO/CodiAcademy--Copy-?page-id=2612%3A9344&node-id=2612-9353&p=f&viewport=115%2C266%2C0.16&t=Dd2gEp0czH9oICpj-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2612%3A9353&show-proto-sidebar=1)
+* 🔗 [View Desktop Prototype](https://www.figma.com/proto/GqZUatYhyc7vB4leHz24uO/CodiAcademy--Copy-?page-id=618%3A11050&node-id=654-29657&p=f&viewport=309%2C338%2C0.05&t=U968KR5HwadZvLsa-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=654%3A29584&show-proto-sidebar=1)
 
 ---
 
-### Organização Modular e Benefícios
+## 2. 🗂️ Project Structure and Organization
 
-Essa estrutura modular permite:
+Below is an overview of the project's main folders, their responsibilities, and examples of their contents:
 
-- Reutilização e isolamento de componentes para facilitar manutenção.
-- Separação clara entre lógica, visual e dados.
-- Escalabilidade do projeto, com fácil adição de novas funcionalidades.
-- Código mais legível e organizado, beneficiando o trabalho colaborativo.
+| Folder | Description | Examples/Main Content |
+| :--- | :--- | :--- |
+| `assets/` | Static images, logos, and icons used in the interface. | Codi Academy Logo |
+| `components/` | Reusable React components used throughout the application. | Header, Modal, Sidebar |
+| `contexts/` | React Contexts for global state management and shared logic. | HeaderContext for header title and actions |
+| `features/` | Page-specific components, isolated to prevent impact on the rest of the system. | Unique components for specific functionalities |
+| `hooks/` | Custom hooks for reusable logic, such as detection of device and data manipulation. | `useFinancialMetrics`, `useIsMobile`, `useLocalStorageData` |
+| `layouts/` | Main layouts that structure the navigation and visual arrangement of the pages. | `MainLayout` with responsive sidebar |
+| `libs/` | Utility functions used globally for common operations and helpers. | `cn` function for CSS class manipulation with Tailwind |
+| `pages/` | Application pages that correspond to routes. | Dashboard, Sales, Expenses |
+| `services/` | Modules for data manipulation logic and integration with external APIs. | Data aggregation for charts |
+| `types/` | TypeScript definitions and interfaces to ensure consistent and safe typing. | `Sale`, `Expense` Interfaces |
+| `utils/` | Utility functions for formatting, financial calculations, and data manipulation. | Calculation of IRR, Payback, date and currency formatting |
+
+### Modular Organization and Benefits
+
+This modular structure allows for:
+
+* Reuse and isolation of components to facilitate maintenance.
+* Clear separation between logic, visual presentation, and data.
+* Project scalability, with easy addition of new functionalities.
+* More readable and organized code, benefiting collaborative work.
 
 ---
 
-## 🚀 Guia Rápido: Adicionando Dados de Teste
+## 🚀 Quick Guide: Adding Test Data
 
-Este passo serve para inserir rapidamente dados simulados no sistema, permitindo testar e visualizar os gráficos e tabelas com informações reais de forma prática, sem a necessidade de inserir tudo manualmente.
+This step is for quickly inserting simulated data into the system, allowing you to test and visualize the charts and tables with real information in a practical way, without the need to enter everything manually.
 
-### 3. Adicionar Vendas Simuladas
+### 3. Add Simulated Sales
 
 ```javascript
 const nomes = ["João Silva", "Maria Oliveira", "Carlos Santos", "Ana Souza", "Pedro Lima", "Juliana Costa", "Lucas Rocha", "Fernanda Alves", "Rafael Martins", "Camila Ribeiro"];
@@ -159,7 +152,7 @@ for (let i = 0; i < 50; i++) {
     const email = nomeCliente.toLowerCase().replace(" ", ".") + "@example.com";
     const telefone = `(11) 9${Math.floor(1000 + Math.random() * 9000)}-${Math.floor(1000 + Math.random() * 9000)}`;
 
-    const valorBruto = Math.floor(800 + Math.random() * 2200); // entre R$800 e R$3000
+    const valorBruto = Math.floor(800 + Math.random() * 2200); // between R$800 and R$3000
     const desconto = Math.floor(Math.random() * 200);
     const imposto = Math.floor(valorBruto * 0.1); // 10%
     const comissao = Math.floor(valorBruto * 0.05); // 5%
@@ -180,8 +173,7 @@ for (let i = 0; i < 50; i++) {
     });
 }
 localStorage.setItem("vendas", JSON.stringify(vendasSimuladas));
-console.log("✅ 50 vendas simuladas adicionadas no localStorage!");
-```
+console.log("✅ 50 simulated sales added to localStorage!");
 ### 4. Adicionar Vendas Simuladas
 ```javascript
 const categorias = [
@@ -273,115 +265,203 @@ console.log("✅ Dados de gastos salvos no localStorage, incluindo o investiment
 
 ---
 
+### 4. Add Simulated Expenses
 
-## 5. 🌐 Hospedagem do Projeto
+```javascript
+const categorias = [
+    "moradia",
+    "contas_casa",
+    "internet_telefone",
+    "impostos_taxas",
+    "dividas_emprestimos",
+    "folha_pagamento",
+    "vale_transporte",
+    "imposto_sobre_folha",
+    "outros"
+];
+const tipos = [
+    "fixo_essencial",
+    "fixo_nao_essencial",
+    "variavel_essencial",
+    "variavel_nao_essencial",
+    "extraordinario",
+    "recorrente",
+    "unico",
+    "outro_tipo"
+];
+const nomesGasto = [
+    "Aluguel",
+    "Conta de Luz",
+    "Água",
+    "Internet",
+    "Telefone",
+    "IPTU",
+    "Empréstimo",
+    "Folha de Pagamento",
+    "Transporte Funcionários",
+    "INSS Patronal",
+    "Netflix",
+    "Spotify",
+    "Compra de Material",
+    "Assinatura de Software",
+    "Deslocamento",
+    "Hospedagem de Site",
+    "Compra Equipamento",
+    "Reparo de Máquina",
+    "Pagamento Freelancer",
+    "Outros"
+];
+const gastosSimulados = [];
 
-O projeto está disponível online em:
+// Adds initial investment
+gastosSimulados.push({
+    id: 1,
+    data: "2023-01-01",
+    nome: "Investimento Inicial",
+    preco: -10000, // Adjusted to be negative, representing a cash outflow
+    categoria: "investimentos_poupanca",
+    tipoDespesa: "investimento"
+});
+
+// Adds the other 49 expenses
+for (let i = 2; i <= 50; i++) {
+    const nome = nomesGasto[Math.floor(Math.random() * nomesGasto.length)];
+    const categoria = categorias[Math.floor(Math.random() * categorias.length)];
+    const tipoDespesa = tipos[Math.floor(Math.random() * tipos.length)];
+
+    const ano = 2023 + Math.floor(Math.random() * 3);
+    const mes = String(Math.floor(Math.random() * 12) + 1).padStart(2, "0");
+    const dia = String(Math.floor(Math.random() * 28) + 1).padStart(2, "0");
+    const data = `${ano}-${mes}-${dia}`;
+
+    const preco = parseFloat((Math.random() * 1000 + 50).toFixed(2)); // Positive value
+    const precoComSinal = -preco; // Transforming to negative to represent an expense
+
+    gastosSimulados.push({
+        id: i,
+        data,
+        nome,
+        preco: precoComSinal, // Saves price as negative
+        categoria,
+        tipoDespesa
+    });
+}
+localStorage.setItem("gastos", JSON.stringify(gastosSimulados));
+console.log("✅ Expense data saved to localStorage, including the initial investment.");
+```
+
+---
+
+## 5. 🌐 Project Hosting
+
+The project is available online at:
 
 🔗 **https://codi-vercel3-0.vercel.app/**
 
 ---
 
-## 6. Entendendo o Investimento Inicial nos Gastos
+## 6. Understanding the Initial Investment in Expenses
 
-O item **“Investimento Inicial”** é essencial para que as métricas **TIR**, **Payback** e **VPL** funcionem corretamente.
+The **“Initial Investment”** item is essential for the **IRR**, **Payback**, and **NPV** metrics to function correctly.
 
-- O **TIR** e o **Payback** são calculados **por ano**, ou seja, não acumulam vários anos.
-- Portanto, para analisar esses indicadores em cada ano, deve-se adicionar manualmente um **Investimento Inicial** no início do ano (idealmente com base nos custos do ano anterior).
+* **IRR** and **Payback** are calculated **per year**; they do not accumulate across multiple years.
+* Therefore, to analyze these indicators annually, an **Initial Investment** must be manually added at the start of each year (ideally based on the costs from the previous year).
 
 ---
 
-## 7. 📊 Entendendo as Métricas Financeiras
+## 7. 📊 Understanding the Financial Metrics
 
-### 7.1 🔢 VPL (Valor Presente Líquido)
+### 7.1 🔢 NPV (Net Present Value)
 
-- Calcula o valor presente de fluxos futuros descontados por uma taxa.
-- Serve para avaliar a viabilidade do projeto:
-  - **VPL > 0**: Projeto é viável.
-  - **VPL < 0**: Projeto não é viável.
-  - **VPL = 0**: Projeto apenas cobre os custos.
-- No Codi Cash, o **Saldo Líquido Acumulado** no gráfico representa o VPL visual.
+* Calculates the present value of future cash flows discounted by a rate.
+* Used to assess project viability:
+    * **NPV > 0**: Project is viable.
+    * **NPV < 0**: Project is not viable.
+    * **NPV = 0**: Project merely covers costs.
+* In Codi Cash, the **Accumulated Net Balance** in the chart visually represents the NPV.
 
-### 7.2 📈 TIR (Taxa Interna de Retorno)
+### 7.2 📈 TIR (Internal Rate of Return)
 
-- Taxa que zera o VPL de um projeto.
-- Representa a **rentabilidade** do projeto.
-- Quanto maior a TIR, melhor o investimento.
+* The discount rate at which the NPV of a project equals zero.
+* Represents the project's **profitability** (or rate of return).
+* The higher the IRR, the better the investment.
 
 ### 7.3 ⏳ Payback
 
-- Tempo necessário para **recuperar o investimento inicial** com os lucros.
-- Indicador de liquidez: quanto menor, mais rápido o retorno.
-- No sistema, é exibido **em meses**.
+* The time required to **recover the initial investment** from accumulated profits.
+* A liquidity indicator: the shorter the time, the quicker the return.
+* In the system, it is displayed **in months**.
 
 ---
 
-## 8. 💻 Como o Projeto Foi Implementado
+## 8. 💻 How the Project Was Implemented
 
-### 8.1 🧰 Tecnologias Principais
+### 8.1 🧰 Core Technologies
 
-- **React**: UI declarativa e eficiente.
-- **TypeScript**: Tipagem estática para maior robustez.
-- **Tailwind CSS**: Estilização rápida com classes utilitárias.
-
----
-
-## 9.📦 Bibliotecas e Ferramentas
-
-### 9.1 🛠️ Produção
-
-- [`@heroicons/react`](https://github.com/tailwindlabs/heroicons), [`lucide-react`](https://lucide.dev/): Ícones SVG.
-- [`@radix-ui/react-*`](https://www.radix-ui.com/): Componentes acessíveis (modais, tooltips, etc.).
-- [`chart.js`](https://www.chartjs.org/), [`react-chartjs-2`](https://react-chartjs-2.js.org/), [`recharts`](https://recharts.org/): Gráficos interativos.
-- [`clsx`](https://www.npmjs.com/package/clsx), [`class-variance-authority`](https://cva.style/), [`tailwind-merge`](https://tailwind-merge.vercel.app/): Gerenciamento inteligente de classes CSS.
-- [`financejs`](https://github.com/ebradyjobory/finance.js): Cálculos de VPL, TIR, Payback.
-- [`moment`](https://momentjs.com/): Manipulação e formatação de datas.
-- [`react-router-dom`](https://reactrouter.com/): Roteamento SPA.
-- [`react-datepicker`](https://reactdatepicker.com/), [`react-icons`](https://react-icons.github.io/react-icons/): Utilitários de UI.
-
-### 9.2 ⚙️ Desenvolvimento
-
-- [`eslint`](https://eslint.org/), [`prettier`](https://prettier.io/): Linting e formatação.
-- [`vite`](https://vitejs.dev/), [`@vitejs/plugin-react`](https://vitejs.dev/guide/): Build moderno e rápido.
-- `@types/*`, `typescript`: Tipagens e compilação.
-- `tailwindcss`, `postcss`, `autoprefixer`: Pipeline de estilização CSS.
+* **React**: UI declarative and efficient.
+* **TypeScript**: Static typing for greater robustness.
+* **Tailwind CSS**: Fast styling with utility classes.
 
 ---
 
-## 10. ⚠️ Observação Importante
+## 9. 📦 Libraries and Tools
 
-> 🔍 **Detalhe sobre os dados automáticos de gasto**  
-> O código insere automaticamente um **"Investimento Inicial"** no início do ano. Isso é **fundamental** para o cálculo de **TIR** e **Payback**, pois essas métricas dependem de um **fluxo de caixa inicial negativo**.
+### 9.1 🛠️ Production
+
+| Library/Tool | Description |
+| :--- | :--- |
+| `@heroicons/react`, `lucide-react` | SVG Icons. |
+| `@radix-ui/react-*` | Accessible components (modals, tooltips, etc.). |
+| `chart.js`, `react-chartjs-2`, `recharts` | Interactive charts. |
+| `clsx`, `class-variance-authority`, `tailwind-merge` | Intelligent CSS class management. |
+| `financejs` | NPV, IRR, Payback calculations. |
+| `moment` | Date manipulation and formatting. |
+| `react-router-dom` | SPA routing. |
+| `react-datepicker`, `react-icons` | UI utilities. |
+
+### 9.2 ⚙️ Development
+
+| Library/Tool | Description |
+| :--- | :--- |
+| `eslint`, `prettier` | Linting and formatting. |
+| `vite`, `@vitejs/plugin-react` | Modern and fast build tool. |
+| `@types/*`, `typescript` | Typings and compilation. |
+| `tailwindcss`, `postcss`, `autoprefixer` | CSS styling pipeline. |
+
+---
+
+## 10. ⚠️ Important Note
+
+> 🔍 **Detail about automatic expense data**
+> The code automatically inserts an **"Initial Investment"** at the start of the year. This is **fundamental** for calculating **IRR** and **Payback**, as these metrics depend on an **initial negative cash flow**.
 >
-> ❗ **Limitação Atual:**  
-> As métricas **TIR** e **Payback** funcionam apenas **por ano**, e **não** consideram múltiplos anos.
+> ❗ **Current Limitation:**
+> The **IRR** and **Payback** metrics currently function only **per year**, and **do not** consider multiple years cumulatively.
 >
-> ✅ **Recomendação:**  
-> Se deseja acompanhar esses indicadores anualmente, **adicione sempre** um gasto chamado `Investimento Inicial` no começo de cada ano, com base nos custos do final do ano anterior (por exemplo, dezembro).
+> ✅ **Recommendation:**
+> If you wish to track these indicators annually, **always add** an expense called `Investimento Inicial` at the beginning of each year, based on the costs from the end of the previous year (e.g., December).
 >
-> 💡 **Melhoria Futuramente:**  
-> A lógica pode ser expandida para comportar **projeções multi-ano** e auxiliar em um **planejamento estratégico de longo prazo**.
+> 💡 **Future Improvement:**
+> The logic can be expanded to support **multi-year projections** and assist with **long-term strategic planning**.
 
 ---
 
+## 11. 📝 License
 
-### 11. 📝 Licença
-Este projeto foi desenvolvido como aprendizado no curso da [Codi Academy](https://codiacademy.com.br/).
-
----
-
-### 12. 👨‍💻 Autoria  
-Desenvolvido por:  
-- [Gabriel Teperino](https://github.com/zSevens7)  
-- [Vitor Reis](https://github.com/vitorszreis)  
-- [Rayan Morais](https://github.com/rayancmorais)
+This project was developed for learning purposes as part of the [Codi Academy](https://codiacademy.com.br/) course.
 
 ---
 
-### 13. 🙏 **Agradecimentos**  
-Obrigado por dedicar seu tempo para ler e testar este projeto! Seu interesse e feedback são muito importantes para nós.  
-Fique à vontade para abrir issues, sugestões ou colaborar!
+## 12. 👨‍💻 Authorship
+
+Developed by:
+
+* [Gabriel Teperino](https://github.com/zSevens7)
+* [Vitor Reis](https://github.com/vitorszreis)
+* [Rayan Morais](https://github.com/rayancmorais)
 
 ---
 
+## 13. 🙏 **Acknowledgements**
 
+Thank you for taking the time to read and test this project! Your interest and feedback are very important to us. Feel free to open issues, suggestions, or collaborate!
