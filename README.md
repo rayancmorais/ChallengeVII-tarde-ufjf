@@ -74,7 +74,7 @@ You must have **Node.js** and **npm** (or `yarn`/`pnpm`) installed.
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/rayancmorais/ChallengeVII-tarde-ufjf.git](https://github.com/rayancmorais/ChallengeVII-tarde-ufjf.git)
+    git clone https://github.com/rayancmorais/ChallengeVII-tarde-ufjf.git
     cd ChallengeVII-tarde-ufjf
     ```
 
