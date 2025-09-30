@@ -1,111 +1,110 @@
-💰 Challenge VII: Codi Cash Financial Management System (UFJF)
-This repository holds the solution for Challenge VII: Codi Cash, a front-end development project aimed at creating a complete, functional, and responsive interface for a financial management software. This challenge was undertaken by the "Tarde" (Afternoon) team as part of a competitive or academic setting at the Universidade Federal de Juiz de Fora (UFJF), in partnership with Codi Academy.
+# 💰 Challenge VII: Codi Cash Financial Management System (UFJF)
 
-The primary goal is to deliver a modern web interface ready for future integration with APIs, focusing heavily on usability and responsive design.
+This repository holds the solution for **Challenge VII: Codi Cash**, a front-end development project aimed at creating a complete, functional, and responsive interface for a financial management software. This challenge was undertaken by the "**Tarde**" (Afternoon) team as part of a competitive or academic setting at the **Universidade Federal de Juiz de Fora (UFJF)**, in partnership with **Codi Academy**.
 
-🎯 Project Goal: Codi Cash System
-The Codi Cash system is a financial management software designed to centralize and simplify the financial control (sales, expenses, and KPIs) for different units of the Codi Academy.
+The primary goal is to deliver a modern web interface ready for future integration with APIs, focusing heavily on **usability and responsive design**.
 
-🚀 Technical Stack
-Based on the file structure (vite.config.ts, tsconfig.json, index.html), this project uses a modern web development setup:
+---
 
-Front-end: React.js (or similar library)
+## 🎯 Project Goal: Codi Cash System
 
-Language: TypeScript
+The **Codi Cash** system is a financial management software designed to centralize and simplify the financial control (sales, expenses, and KPIs) for different units of the Codi Academy.
 
-Build Tool: Vite
+---
 
-Styling: HTML5, CSS3, and a Utility-First CSS Framework (e.g., TailwindCSS or Bootstrap, as per challenge requirements)
+## 🚀 Technical Stack
 
-✨ Frontend Functionalities
+Based on the file structure (`vite.config.ts`, `tsconfig.json`, `index.html`), this project uses a modern web development setup:
+
+* **Front-end**: React.js (or similar library)
+* **Language**: TypeScript
+* **Build Tool**: Vite
+* **Styling**: HTML5, CSS3, and a **Utility-First CSS Framework** (e.g., TailwindCSS or Bootstrap, as per challenge requirements)
+
+---
+
+## ✨ Frontend Functionalities
+
 The challenge required the development of a clean, responsive front-end interface, covering the following key modules:
 
-1. Dashboard Principal
+### 1. Dashboard Principal
 
-Display monthly summaries of revenue, expenses, and current balance.
+* Display monthly summaries of **revenue, expenses, and current balance**.
+* Integrate data visualization (**bar/line charts**) to show financial flow over periods (week, month, year).
+* **Key Performance Indicator (KPI) cards**: Total Sales, Total Expenses, and Net Balance.
 
-Integrate data visualization (bar/line charts) to show financial flow over periods (week, month, year).
+### 2. Sales Module
 
-Key Performance Indicator (KPI) cards: Total Sales, Total Expenses, and Net Balance.
+* **Registration Form**: Comprehensive form for new sales, including:
+    * Course Type (Online or In-person)
+    * Client Details (Name, Email, Phone)
+    * Gross Value, Discounts Applied
+    * Taxes, Commissions, and Card Fees
+    * Calculation of the Final Sale Value.
+* **Sales List**: Display a list of registered sales with filters for period and course type.
 
-2. Sales Module
+### 3. Expenses Module
 
-Registration Form: Comprehensive form for new sales, including:
+* **Registration**: Ability to register both **Fixed Expenses** (rent, payroll, utilities) and **Variable Expenses** (maintenance, supplies).
+* **Management**: Functionality for editing and deleting expense entries.
+* **History**: Visualization of the complete expense history.
 
-Course Type (Online or In-person)
+### 4. Visualization and Graphs
 
-Client Details (Name, Email, Phone)
+* Comparative chart of **Revenue vs. Expenses**.
+* **Pie chart** showing the distribution of expenses by category.
+* Time and category filters for all visualizations.
 
-Gross Value
+### 5. User Experience (UX)
 
-Discounts Applied
+* Clean, **responsive**, and intuitive layout (**Mobile First** design is mandatory).
+* Clear visual feedback for user actions (e.g., successful registration, form errors).
+* Use of **Modals** for confirmations and form submission.
 
-Taxes, Commissions, and Card Fees
+---
 
-Calculation of the Final Sale Value.
+## ⚙️ Setup and Installation
 
-Sales List: Display a list of registered sales with filters for period and course type.
+### Prerequisites
 
-3. Expenses Module
+You must have **Node.js** and **npm** (or `yarn`/`pnpm`) installed.
 
-Registration: Ability to register both Fixed Expenses (rent, payroll, utilities) and Variable Expenses (maintenance, supplies).
+### Steps
 
-Management: Functionality for editing and deleting expense entries.
+1.  **Clone the repository:**
 
-History: Visualization of the complete expense history.
+    ```bash
+    git clone [https://github.com/rayancmorais/ChallengeVII-tarde-ufjf.git](https://github.com/rayancmorais/ChallengeVII-tarde-ufjf.git)
+    cd ChallengeVII-tarde-ufjf
+    ```
 
-4. Visualization and Graphs
+2.  **Install dependencies:**
 
-Comparative chart of Revenue vs. Expenses.
+    ```bash
+    npm install
+    # or
+    # yarn install
+    ```
 
-Pie chart showing the distribution of expenses by category.
+3.  **Run the application (Development Mode):**
+    Since this project uses Vite, use the standard command to launch the development server:
 
-Time and category filters for all visualizations.
+    ```bash
+    npm run dev
+    # or
+    # yarn dev
+    ```
 
-5. User Experience (UX)
+    The application will typically be accessible at `http://localhost:5173`.
 
-Clean, responsive, and intuitive layout (Mobile First design is mandatory).
+---
 
-Clear visual feedback for user actions (e.g., successful registration, form errors).
+## 📋 Evaluation Criteria
 
-Use of Modals for confirmations and form submission.
-
-⚙️ Setup and Installation
-Prerequisites
-
-You must have Node.js and npm (or yarn/pnpm) installed.
-
-Steps
-
-Clone the repository:
-
-git clone [https://github.com/rayancmorais/ChallengeVII-tarde-ufjf.git](https://github.com/rayancmorais/ChallengeVII-tarde-ufjf.git)
-cd ChallengeVII-tarde-ufjf
-
-Install dependencies:
-
-npm install
-# or
-# yarn install
-
-Run the application (Development Mode):
-Since this project uses Vite, use the standard command to launch the development server:
-
-npm run dev
-# or
-# yarn dev
-
-The application will typically be accessible at http://localhost:5173.
-
-📋 Evaluation Criteria
 This project was developed based on the following evaluation criteria:
 
-Interface is fully responsive and functional.
-
-Codebase exhibits excellent organization and structure.
-
-Effective reuse and componentization of UI elements.
-
-Alignment with the specified challenge requirements.
-
-Quality of the final project presentation.
+* Interface is fully **responsive and functional**.
+* Codebase exhibits excellent **organization and structure**.
+* Effective **reuse and componentization** of UI elements.
+* Alignment with the specified challenge requirements.
+* Quality of the final project presentation.
