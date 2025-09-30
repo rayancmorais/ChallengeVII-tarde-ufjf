@@ -1,90 +1,111 @@
-# **Challenge - Projeto Codi Cash**
+💰 Challenge VII: Codi Cash Financial Management System (UFJF)
+This repository holds the solution for Challenge VII: Codi Cash, a front-end development project aimed at creating a complete, functional, and responsive interface for a financial management software. This challenge was undertaken by the "Tarde" (Afternoon) team as part of a competitive or academic setting at the Universidade Federal de Juiz de Fora (UFJF), in partnership with Codi Academy.
 
-**Período do Challenge:** 29/04/2025 a 11/07/2025  
-**Projeto:** Sistema "Codi Cash"  
-**Objetivo:** Criar a interface (Front-end) completa e funcional de um software de gestão financeira voltado para as unidades da Codi Academy, considerando responsividade, usabilidade e integração futura com APIs.
+The primary goal is to deliver a modern web interface ready for future integration with APIs, focusing heavily on usability and responsive design.
 
----
+🎯 Project Goal: Codi Cash System
+The Codi Cash system is a financial management software designed to centralize and simplify the financial control (sales, expenses, and KPIs) for different units of the Codi Academy.
 
-## 1. Descrição Geral do Projeto
+🚀 Technical Stack
+Based on the file structure (vite.config.ts, tsconfig.json, index.html), this project uses a modern web development setup:
 
-O **Codi Cash** é um software de gestão financeira que visa facilitar o controle das finanças de cada unidade da Codi Academy. O sistema permitirá o cadastro, visualização e gestão de vendas, despesas e indicadores financeiros através de uma interface web moderna, responsiva e intuitiva.
+Front-end: React.js (or similar library)
 
----
+Language: TypeScript
 
-## 2. Escopo do Desafio
+Build Tool: Vite
 
-Vocês serão responsáveis por desenvolver **apenas o frontend** da aplicação, utilizando tecnologias modernas como **HTML, CSS (Tailwind ou Bootstrap), JavaScript (React ou Vanilla)**, garantindo:
+Styling: HTML5, CSS3, and a Utility-First CSS Framework (e.g., TailwindCSS or Bootstrap, as per challenge requirements)
 
-- Interfaces responsivas
-- Boa usabilidade
-- Componentização e reutilização de código
-- Estrutura limpa e organizada
+✨ Frontend Functionalities
+The challenge required the development of a clean, responsive front-end interface, covering the following key modules:
 
----
+1. Dashboard Principal
 
-## 3. Funcionalidades Requeridas (Frontend)
+Display monthly summaries of revenue, expenses, and current balance.
 
-### 3.1. Dashboard Principal
-- Exibir resumos mensais de receitas, despesas e balanço
-- Gráficos de barras/linhas para mostrar dados por período (semana, mês, ano)
-- Cards com KPIs (Key performance indicators): *total de vendas*, *total de despesas*, *saldo líquido*
+Integrate data visualization (bar/line charts) to show financial flow over periods (week, month, year).
 
-### 3.2. Módulo de Vendas
-- Formulário de cadastro de venda:
-  - Tipo de curso: online ou presencial
-  - Cliente (nome, e-mail, telefone)
-  - Valor bruto
-  - Descontos aplicados
-  - Impostos, comissões e taxas de cartão
-  - Valor final da venda (após débitos automáticos)
-- Lista de vendas cadastradas com filtros por período e tipo de curso
+Key Performance Indicator (KPI) cards: Total Sales, Total Expenses, and Net Balance.
 
-### 3.3. Módulo de Gastos
-- Cadastro de despesas fixas (luz, água, aluguel, internet, folha de pagamento, vale transporte, imposto sobre folha)
-- Cadastro de despesas variáveis (manutenção, suprimentos, etc.)
-- Edição e exclusão de lançamentos
-- Visualização de histórico de gastos
+2. Sales Module
 
-### 3.4. Visualizações e Gráficos
-- Gráfico comparativo de receitas e despesas
-- Gráfico de pizza para distribuição de gastos
-- Filtros de visualização por intervalo de tempo e categoria
+Registration Form: Comprehensive form for new sales, including:
 
-### 3.5. Experiência do Usuário
-- Layout limpo, responsivo, com navegação intuitiva
-- Feedback visual para ações (ex: cadastro realizado, erro de preenchimento)
-- Utilização de modal para confirmações e formulários
+Course Type (Online or In-person)
 
----
+Client Details (Name, Email, Phone)
 
-## 4. Requisitos Técnicos
+Gross Value
 
-- HTML5, CSS3 e JavaScript
-- TailwindCSS (ou outro framework de UI)
-- ReactJS (opcional, mas recomendado)
-- Responsividade obrigatória (mobile first)
-- Estrutura modular de componentes
+Discounts Applied
 
----
+Taxes, Commissions, and Card Fees
 
-## 5. Critérios de Avaliação
+Calculation of the Final Sale Value.
 
-- Interface responsiva e funcional
-- Boa organização do código
-- Reutilização de componentes
-- Alinhamento com a proposta do desafio
-- Apresentação final do projeto (pitch ou demonstração em vídeo)
+Sales List: Display a list of registered sales with filters for period and course type.
 
----
+3. Expenses Module
 
-## 6. Entregáveis
+Registration: Ability to register both Fixed Expenses (rent, payroll, utilities) and Variable Expenses (maintenance, supplies).
 
-- Código-fonte neste repositório GitHub onde está a documentação
-- Link do deploy (Vercel, Netlify ou outro)
-- Documentação de como rodar localmente
-- Documentação do frontend
-- Apresentação final
+Management: Functionality for editing and deleting expense entries.
 
----
+History: Visualization of the complete expense history.
 
+4. Visualization and Graphs
+
+Comparative chart of Revenue vs. Expenses.
+
+Pie chart showing the distribution of expenses by category.
+
+Time and category filters for all visualizations.
+
+5. User Experience (UX)
+
+Clean, responsive, and intuitive layout (Mobile First design is mandatory).
+
+Clear visual feedback for user actions (e.g., successful registration, form errors).
+
+Use of Modals for confirmations and form submission.
+
+⚙️ Setup and Installation
+Prerequisites
+
+You must have Node.js and npm (or yarn/pnpm) installed.
+
+Steps
+
+Clone the repository:
+
+git clone [https://github.com/rayancmorais/ChallengeVII-tarde-ufjf.git](https://github.com/rayancmorais/ChallengeVII-tarde-ufjf.git)
+cd ChallengeVII-tarde-ufjf
+
+Install dependencies:
+
+npm install
+# or
+# yarn install
+
+Run the application (Development Mode):
+Since this project uses Vite, use the standard command to launch the development server:
+
+npm run dev
+# or
+# yarn dev
+
+The application will typically be accessible at http://localhost:5173.
+
+📋 Evaluation Criteria
+This project was developed based on the following evaluation criteria:
+
+Interface is fully responsive and functional.
+
+Codebase exhibits excellent organization and structure.
+
+Effective reuse and componentization of UI elements.
+
+Alignment with the specified challenge requirements.
+
+Quality of the final project presentation.
